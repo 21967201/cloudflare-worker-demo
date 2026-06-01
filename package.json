@@ -1,0 +1,21 @@
+{
+  "name": "cloudflare-worker-demo",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker with API routes and static pages",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.0.0",
+    "@cloudflare/workers-types": "^4.20250110.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.0",
+    "wrangler": "^4.45.0"
+  }
+}
